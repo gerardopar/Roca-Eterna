@@ -1,0 +1,42 @@
+.mission__header--wrap{
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.mission__header--title{
+    border-bottom: solid 2px $deep-orange;
+    font-weight: 600;
+}
+
+.mission__text--wrap{
+    background-color: whitesmoke;
+    padding: 12px 16px;
+}
+
+.mission__text--header{
+    border-bottom: solid 2px $deep-orange;
+    color: $deep-orange;
+    font-weight: 600;
+}
+
+.mission__text--highlight{
+    color: $deep-orange;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) and (orientation: portrait) {
+    .mission__header--title{
+        font-size: 2.5rem;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) and (orientation: landscape) {
+    .mission__header--title{
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,143 @@
+.gallery{
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.gallery__img{
+    border: solid 5px $deep-orange;
+    height: 95%;
+    width: 50%;
+}
+
+.gallery__next--btn{
+    border: none;
+    height: 60px;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    width: 60px;
+}
+
+.gallery__prev--btn{
+    border: none;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    width: 60px;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 349.98px) and (orientation: portrait) {
+    .gallery{
+        height: 80vh;
+    }
+
+    .gallery__img{
+        border: solid 5px $deep-orange;
+        height: 75%;
+        width: 100%;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 499.98px) and (min-width: 350px) and (orientation: portrait) {
+    .gallery{
+        height: 80vh;
+    }
+
+    .gallery__img{
+        border: solid 5px $deep-orange;
+        height: 75%;
+        width: 100%;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) and (min-width: 500px) and (orientation: portrait) {
+    .gallery{
+        height: 80vh;
+    }
+
+    .gallery__img{
+        border: solid 5px $deep-orange;
+        height: 95%;
+        width: 100%;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) and (orientation: landscape) {
+    .gallery{
+        height: 80vh;
+    }
+
+    .gallery__img{
+        border: solid 5px $deep-orange;
+        height: 95%;
+        width: 70%;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .gallery{
+        height: 80vh;
+    }
+
+    .gallery__img{
+        border: solid 5px $deep-orange;
+        height: 95%;
+        width: 70%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .gallery{
+        height: 80vh;
+    }
+
+    .gallery__img{
+        border: solid 5px $deep-orange;
+        height: 95%;
+        width: 70%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .gallery__img{
+        border: solid 5px $deep-orange;
+        height: 95%;
+        width: 70%;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .gallery{
+        height: 80vh;
+    }
+
+    .gallery__img{
+        border: solid 5px $deep-orange;
+        height: 95%;
+        width: 60%;
+    }
+}

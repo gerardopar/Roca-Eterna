@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='shortcut icon' type='image/x-icon' href='./assets/img/favicon.ico' />
+    <!-- declaring materializeCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- declaring google fonts here -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- declaring google fonts here -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto" rel="stylesheet">
+    <title>ROCA ETERNA</title>
+</head>
+<body>
+
+    <!-- header -->
+    <div>
+        <header class="header z-depth-5">
+            
+            <i class="header__mobile--menu material-icons waves-effect waves-light white-text" id='menu-open'>
+                dehaze
+            </i>
+
+            <div class="header__nav">
+                <li class="header__nav--item"><a href="#home" class="header__nav--link">INICIO</a></li>
+                <li class="header__nav--item"><a href="#mission" class="header__nav--link">MISIÓN</a></li>
+                <li class="header__nav--item"><a href="#doctrine" class="header__nav--link">DOCTRINA</a></li>
+                <li class="header__nav--item"><a href="#members" class="header__nav--link">CONTACTOS</a></li>
+                <li class="header__nav--item"><a href="#services" class="header__nav--link"><span class="header__nav--link--services">SERVICIOS</span></a></li>
+                <li class="header__nav--item"><a href="#gallery" class="header__nav--link">GALLERÍA</a></li>
+                <li class="header__nav--item"><a href="#location" class="header__nav--link">LOCAL</a></li>
+            </div>
+
+            <img class="header__nav--logo" src="./assets/img/rocaeternalogo.jpg" alt="roca eterna logo"/>
+        </header>
+    </div>
+    <!-- mobile nav -->
+    <div class="header__mobile--menu--content z-depth-5" id='sidebar'>
+
+        <div class="header__mobile--menu--header">
+            <i class="header__mobile--menu material-icons waves-effect waves-light white-text" id='menu-close'>
+                close
+            </i>
+        </div>
+        <nav class="header__mobile--nav" id="links">
+            <li class="header__nav--item deep-orange lighten-1"><a href="#home" class="header__nav--link">INICIO</a></li>
+            <li class="header__nav--item"><a href="#mission" class="header__nav--link">MISIÓN</a></li>
+            <li class="header__nav--item"><a href="#doctrine" class="header__nav--link">DOCTRINA</a></li>
+            <li class="header__nav--item"><a href="#members" class="header__nav--link">CONTACTOS</a></li>
+            <li class="header__nav--item"><a href="#services" class="header__nav--link"><span class="header__nav--link--services">SERVICIOS</span></a></li>
+            <li class="header__nav--item"><a href="#gallery" class="header__nav--link">GALLERÍA</a></li>
+            <li class="header__nav--item"><a href="#location" class="header__nav--link">LOCAL</a></li>
+        </nav>
+
+    </div>  
+
+    <main id="main">
+    <!-- hero -->
+    <div>
+        <div style="background-image: url('./assets/img/nature-sky.jpg');" class="hero" id="home">
+
+            <div class="hero__title--wrap">
+                <h1 class="hero__title">
+                MISIÓN CRISTIANA<br/>
+                <span class="hero__text--span">&QUOT; ROCA ETERNA &QUOT;</span><span class="hero__text--city"><br> &bullet;LOS ANGELES&bullet;</span>
+                </h1>
+            </div>
+            
+            <a href="#about" class="hero__button deep-orange white-text lighten-1 waves-effect waves-light z-depth-5">&rarr; MAS SOBRE NOSOTROS</a>
+        </div>
+    </div>
+
+    <!-- location & time section -->
+    <section>
+        <div style="background-image: url('./assets/img/sunset-min.jpg');" class="tsection">
+            <div class="tsection__column--one">
+                <img class="tsection__img" src="./assets/img/calendar.png" alt="calender"/>
+                <p class="tsection__text">
+                    Todos los Domingos - 2:00pm @ Los Angeles<br>
+                    <span class="tsection__text--span">Servicio Evangelistico</span>
+                </p>
+            </div>
+            <div class="tsection__column--two">
+                <img class="tsection__img" src="./assets/img/location.png" alt="location"/>
+                <p style="font-weight: bold;" class="tsection__text">
+                1514 W 7th St,<br> Los Angeles, CA 90017
+                </p>
+                
+                <a href="#services" class="tsection__btn deep-orange white-text lighten-1 waves-effect waves-light z-depth-5">MAS INFORMACIÓN</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about header -->
+    <div>
+        <div class="about__header" id="about">
+            <h2 class="about__header--title">UN POCO SOBRE NUESTRA IGLESIA</h2>
+        </div>
+    </div>
+    <!-- about section -->
+    <div>
+        <section class="about">
+
+            <div class="about__column z-depth-5">
+                <div class="about__img--wrap">
+                    <img class="about__img z-depth-5" src="./assets/img/community-min.jpg" alt="community">
+                </div>
+                <div class="about__title--wrap">
+                    <h4 class="about__title">Nuestra Comunidad</h4>
+                    <p class="about__text">Preocupémonos los unos por los otros,
+                        a fin de estimularnos al amor y a las buenas obras. No dejemos de congregarnos,
+                        como acostumbran hacerlo algunos, sino animémonos unos a otros, 
+                        y con mayor razón ahora que vemos que aquel día se acerca.
+                        <strong>Hebreos 10:24-25</strong> 
+                    </p>
+                </div>
+            </div>
+
+            <div class="about__column z-depth-5">
+                <div class="about__img--wrap">
+                    <img class="about__img z-depth-5" src="./assets/img/thanks.jpg" alt="">
+                </div>
+                <div class="about__title--wrap">
+                    <h4 class="about__title">Nuestra Misión</h4>
+                    <p class="about__text">
+                        La Biblia habla claramente de la tarea general de la Iglesia, de su misión.
+                        De acuerdo con Mateo, la orden final de Jesús a sus discípulos fue “Id, y 
+                        haced discípulos a todas las naciones” (Mateo 28:19). Marcos cita a Jesús con 
+                        palabras semejantes: “Id por todo el mundo y predicad el evangelio a toda criatura” 
+                        (Marcos 26:15). &nrightarrow; <a href="#mission" class="about__card-textSpan">Leer Mas</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="about__column z-depth-5">
+                <div class="about__img--wrap">
+                    <img class="about__img z-depth-5" src="./assets/img/praise-min.jpg" alt="">
+                </div>
+                <div class="about__title--wrap">
+                    <h4 class="about__title">En Que Creemos</h4>
+                    <p class="about__text">
+                        &bullet; Inspiración de las Escrituras &bullet; La Trinidad de Dios
+                        &bullet; La Deidad de Cristo &bullet; Depravación Total &bullet; Elección
+                        Incondicional &bullet; Expiación Limitada &bullet; La Seguridad Eterna de 
+                        Salvación &bullet; El Arrepentimiento &bullet; La Justificación &bullet; 
+                        La Regeneración &bullet; La Santificación &bullet; El Bautismo en el Espirito Santo &bullet; 
+                        Los Dones del Espíritu Santo &nrightarrow; <a href="#doctrine" class="about__card-textSpan">Leer Mas</a>
+                        <br>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- mission section -->
+    <section class="mission" id="mission">
+        
+        <div class="mission__header--wrap">
+            <h2 class="mission__header--title">NUESTRA MISIÓN</h2>
+        </div>
+        
+        <div class="mission__text--wrap">
+
+            <div class="mission__text--container">
+            
+                <details class="mission__details">
+                    <summary class="mission__text--header">
+                        LA MISIÓN
+                    </summary>
+                    <p class="mission__text">
+                    La Biblia habla claramente de la tarea general de la Iglesia, de su misión. 
+                    De acuerdo con Mateo, la orden final de Jesús a sus discípulos fue “Id, y 
+                    haced discípulos a todas las naciones” 
+                    <strong class="mission__text--highlight">(Mateo 28:19)</strong>. 
+                    Marcos cita a Jesús con palabras semejantes: “Id por todo el mundo y predicad 
+                    el evangelio a toda criatura” <strong class="mission__text--highlight">(Marcos 26:15)</strong>. 
+                    Jesús dijo: “Y me seréis testigos en Jerusalén, en toda Judea, en Samaria y hasta lo último de la tierra” 
+                    <strong class="mission__text--highlight">(Hechos 1:8)</strong>. Esos pasajes son vitales, 
+                    pues aclaran muchos puntos importantes sobre nuestra misión. En este contexto queremos pronunciar lo siguiente: 
+                    Jesús está por detrás de la misión. Nuestro Salvador y Señor es la fuente de la misión, 
+                    de acuerdo con el Nuevo Testamento, y no un ser humano o tradición de la iglesia.<br><br> 
+                    Los misioneros son enviados por Jesús. El llamamiento no viene de parte de un líder u 
+                    organización de la iglesia. La misión se basa en las palabras finales y la orden expresa de Jesús. 
+                    Esas palabras son cruciales y muy importantes – palabras que deben ser recordadas y seguidas. 
+                    Ellas son una orden – no un simple deseo. Esta es la Gran Comisión, no apenas una gran sugerencia o 
+                    una gran opción para la iglesia que profesa seguir a Jesús. La misión es universal. El mensaje 
+                    debe alcanzar al mundo entero.<br><br> Ningún lugar o persona debe ser pasado por alto. 
+                    Todos necesitan de Jesús. De acuerdo a lo aclarado por otros pasajes, esta misión durará hasta “el fin” 
+                    <strong class="mission__text--highlight">(Mateo 24:14)</strong>, o “hasta el fin del mundo” 
+                    <strong class="mission__text--highlight">(Mateo 28:20)</strong>. La misión terminará sólo cuando
+                    terminen los tiempos, como los conocemos. ¿Cuál es el mensaje en esta misión? El mensaje es 
+                    hacer “discípulos” (versículo 19) para Jesús. Deben predicar el evangelio 
+                    <strong class="mission__text--highlight">(Marcos 16:15)</strong>, pues son “mis (de Jesús) testigos” 
+                    <strong class="mission__text--highlight">(Hechos 1:8)</strong>. El mensaje es la proclamación del evangelio, 
+                    o las buenas nuevas sobre Jesús, y un llamado al pueblo para seguirlo como discípulos. Esas grandes verdades 
+                    sobre la misión son tan cruciales que pueden fortalecer o destruir la Iglesia. Tal la misión, tal la Iglesia.
+                    </p>
+                </details>
+                
+                <details class="mission__details">
+                    <summary class="mission__text--header">
+                        PROPÓSITOS
+                    </summary>
+                    <p class="mission__text">
+                    Cristo ha edificado su iglesia, ha dado a su pueblo dones y liderazgo, y también nos ha dado un trabajo que hacer.
+                    Los siguientes son en esencia los propósitos de este ministerio: Un propósito principal de la Iglesia es el de 
+                    la adoración. Dios nos ha llamado "para que proclamemos las obras maravillosas de aquel que los llamó de las 
+                    tinieblas a su luz admirable. <strong class="mission__text--highlight">(1ª Pedro 2:9)</strong>. 
+                    Dios busca a gente que le adorará <strong class="mission__text--highlight">(Juan 4:23)</strong>, 
+                    que lo amará sobre todas las cosas <strong class="mission__text--highlight">(Mateo 4:10)</strong>.Todo lo que hacemos,
+                    ya sea en forma individual o como iglesia, debe de ser para su gloria <strong class="mission__text--highlight">(1ª Corintios 10:31)</strong>. 
+                    Somos llamados a ser “sacrificio de alabanza” <strong class="mission__text--highlight">(Hebreos 13:15)</strong>. 
+                    Se nos instruye a hablarnos "con salmos, himnos y canciones espirituales" 
+                    <strong class="mission__text--highlight">(Efesios 5:19)</strong>. Cuando nos reunimos como iglesia, oramos y 
+                    escuchamos Su Palabra. Estas son formas de adoración. <br><br>También lo es la Cena del Señor, el bautismo en agua y la obediencia. 
+                    La enseñanza es otro propósito de la iglesia. Es el núcleo de la Gran Comisión: "enseñándoles a obedecer todo lo que les he mandado a ustedes" 
+                    <strong class="mission__text--highlight">(Mateo 28:20)</strong>. Los líderes de la iglesia deben de enseñar,
+                    y cada miembro debe de estar enseñando el uno al otro 
+                    <strong class="mission__text--highlight">(1ª Corintios 14:31; 1ª Tesalonicenses 5:11; Hebreos 10:25)</strong>. 
+                    Los grupos pequeños (Células Familiares) proveen un ambiente excelente para este ministerio mutuo. Si queremos ser espirituales, 
+                    dice el apóstol Pablo, debemos de querer "edificar la iglesia" <strong class="mission__text--highlight">(1ª Corintios 14:12)</strong>. 
+                    La meta es edificar, fortalecer, animar y consolar (v. 3). 
+                    <br>
+                    <br>
+                    Toda la reunión debe de ser para edificación (v. 26). Somos discípulos, 
+                    gente que aprende y aplica la palabra de Dios. La iglesia primitiva era alabada 
+                    porque "Se mantenían firmes en la enseñanza de los apóstoles, en la comunión, en el 
+                    partimiento del pan y en la oración" <strong class="mission__text--highlight">(Hechos 2:42)</strong>. 
+                    El administrar o mayordomía, es el tercer propósito mayor de la iglesia. Escribe Pablo: "Por lo tanto, 
+                    siempre que tengamos la oportunidad, hagamos bien a todos, y en especial a los de la familia de la fe" 
+                    <strong class="mission__text--highlight">(Gálatas 6:10)</strong>. Nuestro primer deber es hacia la familia, 
+                    después hacia la iglesia, y por último hacia el mundo que nos rodea. El segundo mandamiento más grande es 
+                    el de amar al prójimo <strong class="mission__text--highlight">(Mateo 22:39)</strong>. Este mundo tiene muchas
+                    necesidades físicas, no debemos de ignorarlas. Pero la más grande necesidad es la del Evangelio, tampoco debemos 
+                    de ignorar esto. Como parte de nuestro ministerio para el mundo, la iglesia predica las buenas noticias de la
+                    salvación a través de Jesucristo. Ninguna otra organización hará esta obra—es la misión de la iglesia. Se necesita 
+                    a cada obrero algunos en la línea frontal, y otros como personal de apoyo. Algunos plantarán, otros alimentarán,
+                    y algunos cosecharán, y conforme trabajemos juntos, Cristo hará que su iglesia crezca 
+                    <strong class="mission__text--highlight">(Efesios 4:16)</strong>
+                    </p>
+                </details>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- doctrine section -->
+    <section class="doctrine" id="doctrine">
+        
+        <div class="doctrine__header--wrap">
+            <h2 class="doctrine__header--title">NUESTRA DOCTRINA</h2>
+        </div>
+        
+        <div>
+            
+            <div class="doctrine__text--wrap">
+                
+                <details class="doctrine__details">
+                <summary class="doctrine__text--header">
+                        LA INSPIRACION DE LAS ESCRITURAS
+                </summary>
+                <p class="doctrine__text">
+                    La Biblia es enteramente la Palabra de Dios, aunque haya sido escrita por hombres. 
+                    Existen múltiples evidencias que así lo demuestran. Estas evidencias pueden ser clasificadas en internas y externas.
+
+                    Evidencias internas. Son aquellas que están contenidas dentro de la misma Biblia; es decir, declaraciones escritúrales
+                    donde la Biblia afirma ser la palabra de Dios (Salmo 19:7-11; 119:104-105; Je. 36:1-2; Juan 10:35; Romano 3:2, 
+                    1ª Tesalonicenses 2:13; 2ª Pedro 3:15-16).
+
+                    Evidencias externas. Son aquellas que presentan situaciones tocantes a la Biblia que únicamente pueden ser
+                    explicadas por medio de la aceptación de que ella es la Palabra de Dios. Algunas de las evidencias externas
+                    más notables son las siguientes:
+                </p>
+                
+                <details class="doctrine__details">
+                    <summary class="doctrine__text--header">SU UNIDAD</summary>
+                    <p class="doctrine__text">
+                        La Biblia fue escrita por no menos de cuarenta autores, la mayor parte de ellos nunca se conocieron
+                        pues vivieron en épocas muy diferentes con intervalos de hasta 1600 años, vivieron en países diferentes,
+                        poseyeron personalidades y oficios tan disímiles cono lo son el de pescador y poeta, el de rey y médico;
+                        pero, a pesar de todo ello, la Biblia no es simplemente una colección de 66 libros diferentes, es un 
+                        libro que muestra una unidad de continuidad histórica, doctrinal y de revelación. El hecho de que los
+                        escritores humanos de la Biblia no se hayan conocido y, muchas veces, tampoco se leyeron, resalta la 
+                        verdad de que la unidad de la Biblia únicamente puede ser explicada como un milagro que la coloca en la 
+                        categoría de Palabra de Dios
+                    </p>
+                </details>
+                
+                <details class="doctrine__details">
+                    <summary class="doctrine__text--header">SU EXTENSION</summary>
+                    <p class="doctrine__text">
+                        La Biblia es un libro que no solamente habla de asuntos espirituales. 
+                        Ella se extiende para tocar los temas científicos, históricos, geográficos, culturales, sociales, 
+                        sanitarios, psicológicos. Pero aunque la extensión del contenido de la Biblia es tan amplio, resulta 
+                        un verdadero milagro que todas y cada una de sus afirmaciones, en cualquiera de esos campos, son siempre 
+                        exactas y sin error. Este hecho cobra mayor realce en considerar que la Biblia es el libro completo más 
+                        antiguo que conserva la humanidad. Sus libros fueron escritos en una época en que se ignoraban por completo 
+                        los modernos descubrimientos; sin embargo nada de lo que en ellos está escrito ha sido nunca contradicho por 
+                        descubrimientos posteriores. Esta infalibilidad en tan diversos campos del conocimiento sólo puede ser explicada 
+                        por la verdad de que la Biblia es la Palabra de Dios.
+                    </p>
+                </details>
+                
+                <details class="doctrine__details">
+                    <summary class="doctrine__text--header">SUS PROFECIAS</summary>
+                    <p class="doctrine__text">
+                        El cumplimiento en la historia de las diferentes profecías bíblicas es una de las 
+                        evidencias más convincentes de su origen divino. En la Biblia se encuentran profecías como la de la 
+                        sucesión de los grandes imperios mundiales, se anuncia por completo la llegada de grandes conquistadores como 
+                        Ciro, se profetiza con siglos de antelación la fecha exacta de la venida del Mesías, se profetiza el lugar y 
+                        la forma de su nacimiento, su carácter, sus milagros, sus palabras, la forma de su muerte, su sepultura, su 
+                        resurrección. En fin, la mayor parte de la Biblia es profecía y la mayor parte de ella se ha cumplido al pie de 
+                        la letra, la otra parte se está cumpliendo en el presente y la parte final se cumplirá próximamente conforme al 
+                        orden que ella misma establece. El hecho de que las diferentes predicciones de la Biblia hayan cumplido con absoluta 
+                        exactitud es prueba de su origen sobrenatural.
+                    </p>
+                </details>
+                
+                <details class="doctrine__details">
+                    <summary class="doctrine__text--header">SU ACEPTACION</summary>
+                    <p class="doctrine__text">
+                        Aunque no han faltado los detractados de la Biblia, lo cierto es que ella sigue siendo el 
+                        libro de mayor popularidad jamás escrito. Es el libro que se ha traducido a mayor número de idiomas que ningún 
+                        otro. Cada año, desde que se inventó la imprenta, ha conquistado el primer lugar en número de ejemplares 
+                        impresos y distribuidos. Su aceptación es universal, la leen los niños, los jóvenes, los adultos y los ancianos.
+                        Ha sido inspiración de escritores, oradores, políticos, artistas, etc. Es el libro sobre el que el mayor número 
+                        de comentarios se han escrito. Millares de eruditos se han dedicado a su estudio, sin agotar, después de siglos, 
+                        sus enseñanzas y verdades. Este fenómeno literario sin par, es otra prueba de su origen divino.
+                    </p>
+                </details>
+                
+                <details class="doctrine__details">
+                    <summary class="doctrine__text--header">SU PODER</summary>
+                    <p class="doctrine__text">
+                        La Biblia es el libro que más vidas ha cambiado. Ella transforma el carácter de los hombres y de los hogares,
+                        su lectura, puede librar de los vicios, de las enfermedades, del pecado y de la desesperanza. Su lectura anima,
+                        reprende, consuela, corrige. Quien la lee no vuelve a ser el mismo. Ella ha inspirado a grandes hombres de la 
+                        historia y ha precipitado grandes acontecimientos. Ningún otro libro ha probado tener más poder para mover el 
+                        corazón humano que la Biblia.
+                    <br>
+                    <br>
+                        La conjugación de las evidencias internas y externas que hemos mencionado prueba que la Biblia es la Palabra de
+                        Dios. Sin embargo, sigue pendiente de resolución el explicar cómo un libro que fue escrito por hombres pueda ser
+                        Palabra de Dios. Este concepto es el que aclara el concepto de la inspiración. Para definir adecuadamente ese
+                        concepto vamos a refutar, primeramente, teorías erróneas que tratan de explicar el fenómeno de la inspiración.
+                    <br>
+                    <br>
+                        Teoría del dictado. Es aquella que trata de explicar la inspiración de la Biblia en el sentido de que los hombres que
+                        la escribieron actuaron únicamente como secretarios que copiaban lo que Dios les dictaba.
+                    <br>
+                    <br>
+                        Esta concepción tan simple no hace justicia al fenómeno de que los diferentes hombres que Dios uso para escribir 
+                        la Biblia dejaron estampado su propio estilo en cada uno de sus libros; cosa que no debería de haber ocurrido si
+                        en realidad actuaron solamente como secretarios. Por otro lado, los hombres que escribieron la Biblia expresaron 
+                        muchas veces sus pesares, sus temores, sus alegrías, sus expectativas y sus deseos personales; cosas todas ellas 
+                        que van más allá de la simple función de copista. Este fenómeno se convierte en un poderoso argumento que 
+                        descalifica la teoría del dictado.
+                    <br>
+                    <br>
+                        Teoría del concepto. Es aquella que afirma que Dios únicamente inspiró los conceptos principales y, luego, éstos 
+                        fueron redactados por los escritores usando las palabras de su elección. Esta teoría no hace justicia a la 
+                        infalibilidad de las escrituras, pues, si los hombres sólo recibieron inspiración de los conceptos, muy bien 
+                        podrían haber introducido errores cuando expresaron esos conceptos.
+                    <br>
+                    <br>
+                        Teoría parcial. Establece que la Biblia es inspirada solamente en algunas de sus partes no así en otras. Hasta 
+                        el presente, ninguno de los defensores de esta teoría ha logrado definir criterios adecuados para determinar qué 
+                        partes son inspiradas y qué otras no. Tal parece que la conveniencia y los intereses personales son elementos 
+                        determinantes a la hora de tratar de definir esta importante cuestión. Como resultado de ello no existen dos 
+                        postulantes de esta teoría que estén de acuerdo en qué partes de la Biblia es inspirada; situación sospechosa que
+                        le resta toda credibilidad a semejante proposición.
+                    <br>
+                    <br>
+                        Definición de inspiración. La verdadera inspiración de la Biblia define como una verdad que Dios ha impartido 
+                        directamente a sus autores y que, sin destruir ni anular su propia individualidad, su estilo literario e intereses 
+                        personales, les guió por el Espíritu Santo de manera tal que lo escribieron es la expresión de su completo e íntimo 
+                        pensamiento.
+                        Dios utilizó no solamente las manos de los hombres que escribieron la Biblia, sino también sus ideas culturales, 
+                        temores, anhelos, etc.; pero, de manera tal que lo que finalmente escribieron fue exactamente lo que Dios quería que
+                        se registrara. Existe, pues, en la confección de las Escrituras un aspecto divino y otro humano. La inspiración de 
+                        la Biblia es verbal, plenaria e inerrable.
+                    </p>
+                </details>
+                
+                <details class="doctrine__details">
+                    <summary class="doctrine__text--header">VERBAL</summary>
+                    <p class="doctrine__text">
+                        Por cuanto Dios inspiró no solamente los conceptos sino las palabras exactas que debían ser 
+                        utilizadas. Jesús abogo muchas veces con respecto a palabras aisladas de las escrituras (Juan 10:34-35) y hasta 
+                        por los signos de puntuación (mateo 5:18).
+                    </p>
+                </details>
+                
+                <details class="doctrine__details">
+                    <summary class="doctrine__text--header">PLENARIA</summary>
+                    <p class="doctrine__text">
+                        Por cuanto la inspiración de las Escrituras se extiende por igual a todas y cada una de sus partes 2ª 
+                        Timoteo 3:16.
+                    </p>
+                </details>
+                
+                </details>
+                
+                <details class="doctrine__details">
+                    <summary class="doctrine__text--header">INDICE DE DOTRINA</summary>
+    
+                    <p class="doctrine__text-header-index">&bullet; La Trinidad de Dios</p>
+                    <p class="doctrine__text-header-index">&bullet; La Deidad de Cristo</p>
+                    <p class="doctrine__text-header-index">&bullet; La Personalidad y Deida del Espiritu Santo</p>
+                    <p class="doctrine__text-header-index">&bullet; La Depravacion Total</p>
+                    <p class="doctrine__text-header-index">&bullet; La Eleccion Incondicional</p>
+                    <p class="doctrine__text-header-index">&bullet; La Expiacion Limitada</p>
+                    <p class="doctrine__text-header-index">&bullet; La Gracia Irresistible o Llamamiento Eficaz</p>
+                    <p class="doctrine__text-header-index">&bullet; La Seguridad Eterna de la Salvacion</p>
+                    <p class="doctrine__text-header-index">&bullet; El Arrepentimiento</p>
+                    <p class="doctrine__text-header-index">&bullet; La Justificacion</p>
+                    <p class="doctrine__text-header-index">&bullet; La Regeneracion</p>
+                    <p class="doctrine__text-header-index">&bullet; La Santificacion</p>
+                    <p class="doctrine__text-header-index">&bullet; Los Dones de Inspiracion</p>
+                    <p class="doctrine__text-header-index">&bullet; Los Dones de Poder</p>
+                    <p class="doctrine__text-header-index">&bullet; Sanidad Divina</p>
+                    <p class="doctrine__text-header-index">&bullet; Satanas y los Demonios</p>
+                    <p class="doctrine__text-header-index">&bullet; Los Ministerios</p>
+                    <p class="doctrine__text-header-index">&bullet; La Organizacion de la Iglesia Local</p>
+                    <p class="doctrine__text-header-index">&bullet; El Bautismo en Aguas</p>
+                    <p class="doctrine__text-header-index">&bullet; La Santa Cena</p>
+                    <p class="doctrine__text-header-index">&bullet; La Oracion</p>
+                    <p class="doctrine__text-header-index">&bullet; El Ayuno</p>
+                    <p class="doctrine__text-header-index">&bullet; El Matrimonio</p>
+                    <p class="doctrine__text-header-index">&bullet; El Cristiano y el Estado</p>
+                    <p class="doctrine__text-header-index">&bullet; El Diezmo</p>
+                    <p class="doctrine__text-header-index">&bullet; El Estado de los Muertos</p>
+                    <p class="doctrine__text-header-index">&bullet; El Rapto de la Iglesia</p>
+                    <p class="doctrine__text-header-index">&bullet; El Tribunal de Cristo</p>
+                    <p class="doctrine__text-header-index">&bullet; La Gran Tribulacion</p>
+                    <p class="doctrine__text-header-index">&bullet; La Segunda Venida de Cristo</p>
+                    <p class="doctrine__text-header-index">&bullet; El Reino Milenial de Cristo</p>
+                    <p class="doctrine__text-header-index">&bullet; Los Juicios Finales</p>
+                    <p class="doctrine__text-header-index">&bullet; La Eternidad Futura</p>
+                    
+                </details>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- welcome section -->
+    <section>
+        <div class="welcome">
+
+            <div class="welcome__img--wrap">
+                <img class="welcome__img z-depth-5" src="./assets/img/beliefs-min.jpg" alt='beliefs'/>
+            </div>
+
+            <div class="welcome__text--wrap">
+                <p class="welcome__text">
+                    <span class="welcome__text--header">
+                    SOMOS UNA IGLESIA QUE<br> CREE EN DIOS
+                    Y TODOS<br> SON BIENVENIDOS</span>
+                    <br />
+                    <br />
+                    "Jehová te bendiga, y te guarde; Jehová <br />
+                    haga resplandecer su rostro sobre ti, <br />
+                    y tenga de ti misericordia; Jehová alce  <br />
+                    sobre ti su rostro, y ponga en ti paz. <br />
+                    "<strong>Numeros 6:24-26</strong>
+                    <br />
+                    <br />
+                    <a href="#members" class="welcome__btn deep-orange white-text lighten-1 waves-effect waves-light z-depth-5">CONTACTE NOS</a>
+                </p>
+                    <br>
+                    <br>
+                
+            </div>
+                
+            </div>
+    </section>
+
+    <!-- members header -->
+    <div>
+        <div class="members__header" id="members">
+            <h2 class="members__header--title">
+                ANCIANOS DE LA MISION CRISTIANA 
+                <span class="members__header--span">ROCA ETERNA</span> 
+                LOS ANGELES, CA
+            </h2>
+        </div>
+    </div>
+    <!-- members section -->
+    <section>
+        <div class="members">
+
+            <div class="members__column z-depth-5">
+                <div class="members__img--wrap">
+                    <img class="members__img z-depth-5" src="./assets/img/hugo-mem.jpg" alt="">
+                </div>
+                <div class="members__title--wrap">
+                    <h4 class="members__title">HNO. HUGO BERMUDEZ</h4>
+                    <p class="members__text">
+                        Numero De Contacto<br><strong>&phone;(317)280-8125</strong>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="members__column z-depth-5">
+                <div class="members__img--wrap">
+                    <img class="members__img z-depth-5" src="./assets/img/dario-memb-min.jpg" alt="">
+                </div>
+                <div class="members__title--wrap">
+                    <h4 class="members__title">HNO. DARIO GONZALEZ</h4>
+                    <p class="members__text">
+                        Numero De Contacto<br><strong>&phone;(323)873-8675</strong>
+                    </p>
+                </div>
+            </div>
+
+            <div class="members__column z-depth-5">
+                <div class="members__img--wrap">
+                    <img class="members__img z-depth-5" src="./assets/img/Mauricio-mem.jpg" alt="">
+                </div>
+                <div class="members__title--wrap">
+                    <h4 class="members__title">HNO. MAURICIO RUIZ</h4>
+                    <p class="members__text">
+                        Numero De Contacto<br><strong>&phone;(323)237-7720</strong>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services">
+        <div style="background-image: url('./assets/img/sunset-min.jpg')"; class="services">
+            <div class="services__title--wrap">
+            <h2 class="services__title">HORARIOS DE
+                <span class="services__title--span">SERVICIOS</span>    
+            </h2>
+            </div>
+
+            <div class="services__info--wrap">
+                <div class="services__info">
+                    <img class="services__icon" src="./assets/img/events_calendar.png" alt="calender">
+                    <p class="services__text">Doctrina y Oracion</p>
+                </div>
+                <div class="services__info">
+                    <img class="services__icon" src="./assets/img/clock.png" alt="clock">
+                    <p class="services__text">Martes 7:30 pm</p>
+                </div>
+                <div class="services__info local">
+                    <img class="services__icon" src="./assets/img/location.png" alt="location">
+                    <p class="services__text">1514 W 7th St,<br>Los Angeles, CA 90017</p>
+                </div>
+            </div>
+
+            <div class="services__info--wrap">
+                <div class="services__info">
+                    <img class="services__icon" src="./assets/img/events_calendar.png" alt="calender">
+                    <p class="services__text">Servicio Familiar / Vigilia</p>
+                </div>
+                <div class="services__info">
+                    <img class="services__icon" src="./assets/img/clock.png" alt="clock">
+                    <p class="services__text">Viernes 8:00 pm</p>
+                </div>
+                <div class="services__info local">
+                    <img class="services__icon" src="./assets/img/location.png" alt="location">
+                    <p class="services__text">1514 W 7th St,<br>Los Angeles, CA 90017</p>
+                </div>
+            </div>
+
+            <div class="services__info--wrap">
+                <div class="services__info">
+                    <img class="services__icon" src="./assets/img/events_calendar.png" alt="calender">
+                    <p class="services__text">Estudio Biblico / Ayuno</p>
+                </div>
+                <div class="services__info">
+                    <img class="services__icon" src="./assets/img/clock.png" alt="clock">
+                    <p class="services__text">Sabado 7:30 pm</p>
+                </div>
+                <div class="services__info local">
+                    <img class="services__icon" src="./assets/img/location.png" alt="location">
+                    <p class="services__text">1514 W 7th St,<br>Los Angeles, CA 90017</p>
+                </div>
+            </div>
+
+            <div class="services__info--wrap">
+                <div class="services__info">
+                    <img class="services__icon" src="./assets/img/events_calendar.png" alt="calender">
+                    <p class="services__text">Servicio Evangelistico</p>
+                </div>
+                <div class="services__info">
+                    <img class="services__icon" src="./assets/img/clock.png" alt="clock">
+                    <p class="services__text">Domingo 2:00 pm</p>
+                </div>
+                <div class="services__info local">
+                    <img class="services__icon" src="./assets/img/location.png" alt="location">
+                    <p class="services__text">1514 W 7th St,<br>Los Angeles, CA 90017</p>
+                </div>
+            </div>
+
+            <div class="services__info--wrap">
+                <div class="services__info--empty">
+                    
+                </div>
+                <div class="services__info--empty">
+                    
+                </div>
+                <div class="services__info--empty">
+                
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- gallery header -->
+    <div id="gallery">
+        <div class="gallery__header">
+            <h2 class="gallery__header--title">
+                GALLERÍA
+            </h2>
+        </div>
+    </div>
+    <!-- gallery section -->
+    <section>
+        <div class="gallery">
+            <!-- render images here -->
+            <img class="gallery__img z-depth-5" id="content" />
+
+            <!-- buttons to change slide show -->
+            <button class="gallery__next--btn material-icons deep-orange white-text lighten-1 waves-effect waves-light z-depth-5" id="plus">arrow_forward</button>
+            <button class="gallery__prev--btn material-icons deep-orange white-text lighten-1 waves-effect waves-light z-depth-5" id="prev">arrow_back</button>
+        </div>
+    </section>
+
+    <!-- location header -->
+    <section style="background-image: url('./assets/img/sunset-min.jpg');" class="location__header" id="location">
+        <div class="location__header--wrap">
+            <p class="location__header--text">
+                <img class="location__header--icon" src="./assets/img/location.png"/>
+                1514 W 7th St,<br>Los Angeles, CA 90017
+            </p>
+        </div>
+    </section>
+    <!-- location map -->
+    <section>
+        <div class="location__map--box" id="loca">
+            <iframe class="location__map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.640975376332!2d-118.27209558488748!3d34.05307958060578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7a49ccdeb31%3A0x9a604c7ebbec8446!2s1514+W+7th+St%2C+Los+Angeles%2C+CA+90017!5e0!3m2!1sen!2sus!4v1515785690928" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__text--wrap">
+            <p class="footer__text">
+                &copy;2018 ALL RIGHTS RESERVED, BY MISION CRISTIANA 
+                <span class="footer__text--span">&quot;ROCA ETERNA&quot;</span>
+            </p>
+        </div>
+        
+        <div class="footer__icon--wrap">
+            <a href="https://www.facebook.com/Roce-Eterna-Los-Angeles-1797093410585926/?modal=admin_todo_tour"><img class="footer__icon" src="./assets/img/facebook.png"></a>
+            <a href="mailto:rocaeternalosangeles@gmail.com"><img class="footer__icon" src="./assets/img/google-plus.png"></a>
+            <a href="https://www.youtube.com/channel/UChMClLvw2UfZyA-0evUo8Pw?"><img class="footer__icon" src="./assets/img/youtube.png"></a>
+        </div>
+    </footer>
+
+    </main>
+
+</body>
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- MaterializeCSS JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="./scripts/index.js"></script>
+</html>

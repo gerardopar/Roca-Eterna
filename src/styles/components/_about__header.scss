@@ -1,0 +1,27 @@
+.about__header{
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.about__header--title{
+    border-bottom: solid 2px $deep-orange;
+    font-weight: 600;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) and (orientation: portrait) {
+    .about__header--title{
+        font-size: 2.5rem;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) and (orientation: landscape) {
+    .about__header--title{
+        font-size: 2.5rem;
+    }
+}
